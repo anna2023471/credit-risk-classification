@@ -4,7 +4,7 @@ Module 20 Report
 
 ## Overview of the Analysis
 
-The purpose of this analysis was to predict which loans may be at high resk of default based on a combination of loan and borrower features.
+The purpose of this analysis was to predict which loans may be at high risk of default based on a combination of loan and borrower features.
 
 The features used in the analysis were borrower income, number of accounts held, derogatory marks, loan size, interest rate, total debt, and the debt to income ratio.
 
