@@ -4,7 +4,7 @@ Module 20 Report
 
 ## Overview of the Analysis
 
-The purpose of this analysis was to predict which loans are at high resk of default.
+The purpose of this analysis was to predict which loans may be at high resk of default based on a combination of loan and borrower features.
 
 The features used in the analysis were borrower income, number of accounts held, derogatory marks, loan size, interest rate, total debt, and the debt to income ratio.
 
@@ -34,7 +34,7 @@ Recall:
 
 ## Summary
 
-The model's overall accuracy score is very high, owing to the large number of healthy loans in the dataset. The model's ability to correctly classify healthy loans is also high. However, its ability to correctlt classify high risk loans is significantly poorer.
+The model's overall accuracy score is very high, owing to the large number of healthy loans in the dataset. The model's ability to correctly classify healthy loans is also high. However, its ability to correctly classify high risk loans is significantly poorer.
 
 A recall score of 89% for high risk loans (i.e. proportion of high risk loans that were correctly identified as such) means that the model will miss 11% of all those loans. Therefore, this model is not suitable for making lending decisions (deciding whether a loan should be approved) as incorrectly classifying 11% of high risk loans as healthy could results in significant financia losses; a model with a recall score of at least 95% is needed to make such decisions.
 
